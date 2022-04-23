@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sat.Recruitment.Models\Sat.Recruitment.Core.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Core\Sat.Recruitment.Core.csproj" />
   </ItemGroup>
 
 </Project>
