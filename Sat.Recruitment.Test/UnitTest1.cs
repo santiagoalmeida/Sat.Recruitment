@@ -51,8 +51,6 @@ namespace Sat.Recruitment.Test
                     UserType = "Normal",
                     Money = Convert.ToDecimal(124)
                 }).Result;
-            
-
 
             Assert.Equal(false, result.IsSuccess);
             Assert.Equal("The user is duplicated", result.Errors);

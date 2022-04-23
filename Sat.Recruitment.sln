@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api", "Sat.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Test", "Sat.Recruitment.Test\Sat.Recruitment.Test.csproj", "{42E696E9-2672-4B91-AD96-353A69F7219C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Core", "Sat.Recruitment.Models\Sat.Recruitment.Core.csproj", "{BA26B937-2B96-4BCF-A9B7-30143E0F5A79}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97DB21C6-2B90-4D69-96AE-3B618F442B8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{F80E7DBD-1158-4715-ABC0-94A9DC05A6E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Service", "Sat.Recruitment.Service\Sat.Recruitment.Service.csproj", "{76690631-61EB-488E-80EE-0A34AA6A0CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Service", "Sat.Recruitment.Service\Sat.Recruitment.Service.csproj", "{76690631-61EB-488E-80EE-0A34AA6A0CD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Core", "Sat.Recruitment.Core\Sat.Recruitment.Core.csproj", "{E6713563-224E-4EC7-8850-C827EDB4AAF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,14 @@ Global
 		{42E696E9-2672-4B91-AD96-353A69F7219C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E696E9-2672-4B91-AD96-353A69F7219C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E696E9-2672-4B91-AD96-353A69F7219C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA26B937-2B96-4BCF-A9B7-30143E0F5A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA26B937-2B96-4BCF-A9B7-30143E0F5A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA26B937-2B96-4BCF-A9B7-30143E0F5A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA26B937-2B96-4BCF-A9B7-30143E0F5A79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{76690631-61EB-488E-80EE-0A34AA6A0CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76690631-61EB-488E-80EE-0A34AA6A0CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76690631-61EB-488E-80EE-0A34AA6A0CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76690631-61EB-488E-80EE-0A34AA6A0CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6713563-224E-4EC7-8850-C827EDB4AAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6713563-224E-4EC7-8850-C827EDB4AAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6713563-224E-4EC7-8850-C827EDB4AAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6713563-224E-4EC7-8850-C827EDB4AAF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,8 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0} = {97DB21C6-2B90-4D69-96AE-3B618F442B8F}
 		{42E696E9-2672-4B91-AD96-353A69F7219C} = {F80E7DBD-1158-4715-ABC0-94A9DC05A6E7}
-		{BA26B937-2B96-4BCF-A9B7-30143E0F5A79} = {97DB21C6-2B90-4D69-96AE-3B618F442B8F}
 		{76690631-61EB-488E-80EE-0A34AA6A0CD6} = {97DB21C6-2B90-4D69-96AE-3B618F442B8F}
+		{E6713563-224E-4EC7-8850-C827EDB4AAF9} = {97DB21C6-2B90-4D69-96AE-3B618F442B8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2A05765-05B9-484D-8D3D-506849EB716F}
